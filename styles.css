@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, button {
+    font-family: "Patrick Hand", cursive;
+    color: #FFFFFF
+    
+
+}
+
+body{
+    background-color: #0D3985 ;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+html{
+    scrollbar-color: #0D3985  #0D3985;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #6FB7E2;
+    text-align: center;
+    width: 98.5%;
+    height: auto;
+    margin: 0;
+    top: 0%;
+    padding: 20px;
+    transform: translate(-10px,-10px);
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+
+header h1:hover{
+    cursor: pointer;
+}
+.navbar {
+    transform: translate(0px,5px);
+    padding: 10px;
+}
+
+button{
+    background-color: #6FB7E2;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quote{
+    background-color: #6FB7E2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: fit-content;
+    justify-self: center;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.contentsDivide{
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.textFact{
+    background-color: #6FB7E2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    color: #FFFFFF;
+    width: fit-content;
+    justify-self: center;
+    font-size: 10px;
+    width: 200px;
+}
+
+.closer{
+    position: relative;
+    transform: translate(0px,-250px);
+}
+
+.closer:hover{
+    cursor:progress;
+
+}
+
+.titleMedia{
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+/* .titleMedia:hover{
+    transform: scale(.75);
+    transition: 0.8s;
+} */
+
+
+.scrollContainer {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    margin: 10px;
+}
+  
+.scrollContainer img {
+    padding: 10px;
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+#drop:hover{
+    cursor: wait;
+    transform: translateY(200px);
+    transition: 3s;
+}
+

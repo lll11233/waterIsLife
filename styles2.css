@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, button {
+    font-family: "Patrick Hand", cursive;
+    color: black
+    
+
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    top: 0%;
+    padding: 20px;
+    transform: translate(-10px,-10px);
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    border: black solid 2px;
+    z-index: 1;
+    
+}
+
+header h1:hover{
+    cursor: pointer;
+}
+.navbar {
+    transform: translate(0px,5px);
+    padding: 10px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.firstcontent{
+    float: right;
+    width: 100%;
+    padding: 10px;
+    height: 700px;
+    text-align: center;
+
+}
+
+.sideColumn{
+    float: left;
+    width: 10%;
+    padding: 10px;
+    height: 550px; /* Should be removed. Only for demonstration */
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.content{
+    float: right;
+    width: 85%;
+    padding: 10px;
+    height: 550px; /* Should be removed. Only for demonstration */
+    border-radius: 10px;
+    border: black solid 2px;
+
+
+}
+.mainColumn:after{
+    content: "";
+    display: table;
+    clear: both;
+}
